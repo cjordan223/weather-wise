@@ -31,11 +31,15 @@ def get_weather(latitude, longitude, city_name):
     response = requests.get(url)
     data = response.json()
 
+    # Convert temperature from Celsius to Fahrenheit
+    celsius_temperature = data['current_weather']['temperature']
+    fahrenheit_temperature = (celsius_temperature * 9/5) + 32
+
     # Extracting necessary details
     weather = {
         'city': city_name,
         'time': data['current_weather']['time'],
-        'temperature': data['current_weather']['temperature'],
+        'temperature': fahrenheit_temperature,  # Use the Fahrenheit temperature here
         'weathercode': data['current_weather']['weathercode'],
         'windspeed': data['current_weather']['windspeed'],
         'winddirection': data['current_weather']['winddirection'],
