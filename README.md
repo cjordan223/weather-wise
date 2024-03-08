@@ -62,6 +62,6 @@ python manage.py runserver
 - [Python Requests](https://docs.python-requests.org/en/master/)
 - [Open-Meteo](https://open-meteo.com/)
 - [Nominatim Geocoding](https://nominatim.org/)
-```
+
 
  
