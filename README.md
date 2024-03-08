@@ -1,5 +1,3 @@
-Certainly! Below is a template for a README.md file for your GitHub repository that showcases your weather application, "Weather Wise". Feel free to customize it to fit your project's specific details and requirements.
-
 ```markdown
 # Weather Wise
 
