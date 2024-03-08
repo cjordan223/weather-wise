@@ -1,5 +1,4 @@
-```markdown
-# Weather Wise
+## Weather Wise
 
 Weather Wise is a dynamic web application designed to provide users with real-time weather information for any specified city around the globe. Leveraging a sleek, user-friendly interface, Weather Wise offers insights into current weather conditions, including temperature, wind speed, and direction, enhancing user experiences with accurate and relevant data visualization.
 
