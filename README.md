@@ -4,7 +4,7 @@ This version of the Weather Wise application has been deprecated.
 
 ## New Repository
 
-🔗 [Weather Wise - Updated Version]((https://github.com/cjordan223/WeatherWise))
+🔗 [Weather Wise - Updated Version](https://github.com/cjordan223/WeatherWise)
 
 
 ---
